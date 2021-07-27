@@ -38,7 +38,7 @@ const Carousel: React.FC<Props> = ({ title, children }) => {
         </div>
       </div>
       {/* Actual carousel */}
-      <div className="relative bg-primary-200">
+      <div className="relative">
         {children.map((child, index) => (
           <Transition
             as={Fragment}
