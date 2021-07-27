@@ -1,5 +1,6 @@
 import { Transition } from "@headlessui/react";
 import React, { Fragment, useState } from "react";
+import Tab from "./Tab";
 
 interface Props {
   title: React.ReactNode;
@@ -7,6 +8,12 @@ interface Props {
 }
 
 const Carousel: React.FC<Props> = ({ title, children }) => {
+  children.forEach((c) => {
+    if (c.type !== Tab) {
+      throw new Error("Children of TabList should be Tab. Received " + c.type);
+    }
+  });
+
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   const tabWidth = 100 / children.length;
@@ -42,6 +49,7 @@ const Carousel: React.FC<Props> = ({ title, children }) => {
         {children.map((child, index) => (
           <Transition
             as={Fragment}
+            unmount={false}
             show={index === selectedIndex}
             enter="transition-opacity duration-700"
             enterFrom="opacity-0"
