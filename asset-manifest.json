@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ReusableTabsUsingReact/static/css/main.f247bfc8.chunk.css",
-    "main.js": "/ReusableTabsUsingReact/static/js/main.e286ee1b.chunk.js",
-    "main.js.map": "/ReusableTabsUsingReact/static/js/main.e286ee1b.chunk.js.map",
+    "main.css": "/ReusableTabsUsingReact/static/css/main.74106550.chunk.css",
+    "main.js": "/ReusableTabsUsingReact/static/js/main.86e2ab61.chunk.js",
+    "main.js.map": "/ReusableTabsUsingReact/static/js/main.86e2ab61.chunk.js.map",
     "runtime-main.js": "/ReusableTabsUsingReact/static/js/runtime-main.23da238e.js",
     "runtime-main.js.map": "/ReusableTabsUsingReact/static/js/runtime-main.23da238e.js.map",
     "static/js/2.5d74f813.chunk.js": "/ReusableTabsUsingReact/static/js/2.5d74f813.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.b232e0d1.chunk.js": "/ReusableTabsUsingReact/static/js/3.b232e0d1.chunk.js",
     "static/js/3.b232e0d1.chunk.js.map": "/ReusableTabsUsingReact/static/js/3.b232e0d1.chunk.js.map",
     "index.html": "/ReusableTabsUsingReact/index.html",
-    "static/css/main.f247bfc8.chunk.css.map": "/ReusableTabsUsingReact/static/css/main.f247bfc8.chunk.css.map",
+    "static/css/main.74106550.chunk.css.map": "/ReusableTabsUsingReact/static/css/main.74106550.chunk.css.map",
     "static/js/2.5d74f813.chunk.js.LICENSE.txt": "/ReusableTabsUsingReact/static/js/2.5d74f813.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.23da238e.js",
     "static/js/2.5d74f813.chunk.js",
-    "static/css/main.f247bfc8.chunk.css",
-    "static/js/main.e286ee1b.chunk.js"
+    "static/css/main.74106550.chunk.css",
+    "static/js/main.86e2ab61.chunk.js"
   ]
 }
