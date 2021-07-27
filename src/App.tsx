@@ -1,7 +1,7 @@
 import React from "react";
-import Carousel from "./Carousel";
-import Tab from "./Tab";
-import TabContent from "./TabContent";
+import Carousel from "./components/Carousel";
+import Tab from "./components/Tab";
+import TabContent from "./components/TabContent";
 
 interface Props {}
 
