@@ -16,19 +16,9 @@ module.exports = {
       black: colors.black,
       gold: "#cba258",
     },
-    maxWidth: {
-      144: "90rem",
-      112: "70rem",
-      54: "33.75rem",
-      37: "23.4735rem",
-    },
-    maxHeight: {
-      81: "50.625rem",
-    },
-    minWidth: {
-      200: "50rem",
-    },
     screens: {
+      xs: "512px",
+
       sm: "640px",
       // => @media (min-width: 640px) { ... }
 
@@ -59,6 +49,18 @@ module.exports = {
         mobile: "133.33%",
         star: "56.25%",
         "md-card": "5vw",
+      },
+      maxWidth: {
+        144: "90rem",
+        112: "70rem",
+        54: "33.75rem",
+        37: "23.4735rem",
+      },
+      maxHeight: {
+        81: "50.625rem",
+      },
+      minWidth: {
+        200: "50rem",
       },
     },
   },
