@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import RewardsTabArea from "./components/RewardsTabArea";
 import UserList from "./components/UserList";
 
 interface Props {}
