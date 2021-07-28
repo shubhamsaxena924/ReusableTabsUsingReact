@@ -1,13 +1,14 @@
 import { Transition } from "@headlessui/react";
-import React, { Fragment, useState } from "react";
+import React, { Fragment, SetStateAction, useState } from "react";
 import Tab from "./Tab";
 
 interface Props {
   title: React.ReactNode;
   children: React.ReactElement[];
+  setActive: React.Dispatch<SetStateAction<number>>;
 }
 
-const Carousel: React.FC<Props> = ({ title, children }) => {
+const Carousel: React.FC<Props> = ({ title, children, setActive }) => {
   children.forEach((c) => {
     if (c.type !== Tab) {
       throw new Error("Children of TabList should be Tab. Received " + c.type);
@@ -31,7 +32,10 @@ const Carousel: React.FC<Props> = ({ title, children }) => {
             {children.map((child, index) => (
               <button
                 className="flex-1 px-2 py-4 text-xl font-semibold md:text-2xl"
-                onClick={() => setSelectedIndex(index)}
+                onClick={() => {
+                  setSelectedIndex(index);
+                  setActive(index);
+                }}
               >
                 {child.props.title}
               </button>

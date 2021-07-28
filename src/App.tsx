@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import RewardsTabArea from "./components/RewardsTabArea";
 import UserList from "./components/UserList";
 
 interface Props {}
@@ -29,6 +30,9 @@ const App: React.FC<Props> = (props) => {
         </button>
       </div>
       <UserList page={page} />
+      <div className="mt-20 border-t">
+        <RewardsTabArea />
+      </div>
     </div>
   );
 };
