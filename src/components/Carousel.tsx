@@ -17,6 +17,8 @@ const Carousel: React.FC<Props> = ({ title, children }) => {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   const tabWidth = 100 / children.length;
+  var xTrans = 100 * selectedIndex;
+  var translatecss = "translate(" + xTrans + "%)";
 
   return (
     <div>
@@ -24,6 +26,7 @@ const Carousel: React.FC<Props> = ({ title, children }) => {
         <h2 className="px-4 pb-4 text-2xl font-semibold text-center md:text-3xl md:pb-12">
           {title}
         </h2>
+        {console.log("Before click:" + translatecss)}
         <div className="relative w-full pb-1 mx-auto max-w-54">
           <div className="flex items-center">
             {children.map((child, index) => (
@@ -35,16 +38,17 @@ const Carousel: React.FC<Props> = ({ title, children }) => {
               </button>
             ))}
           </div>
+          {console.log("After click: " + translatecss)}
           <div
             className="absolute h-1 duration-700 ease-in-out transform bg-primary-300"
             style={{
               width: tabWidth + "%",
-              left: tabWidth * selectedIndex + "%",
+              transform: translatecss,
             }}
           ></div>
         </div>
       </div>
-      {/* Actual carousel */}
+      {/* Actual carousel */ console.log("Before transition: " + translatecss)}
       <div className="relative">
         {children.map((child, index) => (
           <Transition
