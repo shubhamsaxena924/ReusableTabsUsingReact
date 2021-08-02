@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ReusableTabsUsingReact/static/css/main.9eae15ad.chunk.css",
-    "main.js": "/ReusableTabsUsingReact/static/js/main.3dc6e8fd.chunk.js",
-    "main.js.map": "/ReusableTabsUsingReact/static/js/main.3dc6e8fd.chunk.js.map",
-    "runtime-main.js": "/ReusableTabsUsingReact/static/js/runtime-main.7a377656.js",
-    "runtime-main.js.map": "/ReusableTabsUsingReact/static/js/runtime-main.7a377656.js.map",
-    "static/js/2.1b0365dd.chunk.js": "/ReusableTabsUsingReact/static/js/2.1b0365dd.chunk.js",
-    "static/js/2.1b0365dd.chunk.js.map": "/ReusableTabsUsingReact/static/js/2.1b0365dd.chunk.js.map",
-    "static/js/3.7d669ebb.chunk.js": "/ReusableTabsUsingReact/static/js/3.7d669ebb.chunk.js",
-    "static/js/3.7d669ebb.chunk.js.map": "/ReusableTabsUsingReact/static/js/3.7d669ebb.chunk.js.map",
-    "index.html": "/ReusableTabsUsingReact/index.html",
-    "static/css/main.9eae15ad.chunk.css.map": "/ReusableTabsUsingReact/static/css/main.9eae15ad.chunk.css.map",
-    "static/js/2.1b0365dd.chunk.js.LICENSE.txt": "/ReusableTabsUsingReact/static/js/2.1b0365dd.chunk.js.LICENSE.txt"
+    "main.css": "/Starbucks-React-TypeScript/static/css/main.537d4078.chunk.css",
+    "main.js": "/Starbucks-React-TypeScript/static/js/main.3250ac86.chunk.js",
+    "main.js.map": "/Starbucks-React-TypeScript/static/js/main.3250ac86.chunk.js.map",
+    "runtime-main.js": "/Starbucks-React-TypeScript/static/js/runtime-main.4d819dfe.js",
+    "runtime-main.js.map": "/Starbucks-React-TypeScript/static/js/runtime-main.4d819dfe.js.map",
+    "static/js/2.35d91c2c.chunk.js": "/Starbucks-React-TypeScript/static/js/2.35d91c2c.chunk.js",
+    "static/js/2.35d91c2c.chunk.js.map": "/Starbucks-React-TypeScript/static/js/2.35d91c2c.chunk.js.map",
+    "static/js/3.a4883ea1.chunk.js": "/Starbucks-React-TypeScript/static/js/3.a4883ea1.chunk.js",
+    "static/js/3.a4883ea1.chunk.js.map": "/Starbucks-React-TypeScript/static/js/3.a4883ea1.chunk.js.map",
+    "index.html": "/Starbucks-React-TypeScript/index.html",
+    "static/css/main.537d4078.chunk.css.map": "/Starbucks-React-TypeScript/static/css/main.537d4078.chunk.css.map",
+    "static/js/2.35d91c2c.chunk.js.LICENSE.txt": "/Starbucks-React-TypeScript/static/js/2.35d91c2c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7a377656.js",
-    "static/js/2.1b0365dd.chunk.js",
-    "static/css/main.9eae15ad.chunk.css",
-    "static/js/main.3dc6e8fd.chunk.js"
+    "static/js/runtime-main.4d819dfe.js",
+    "static/js/2.35d91c2c.chunk.js",
+    "static/css/main.537d4078.chunk.css",
+    "static/js/main.3250ac86.chunk.js"
   ]
 }
